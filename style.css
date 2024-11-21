@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#play{
+    background-color: #FCF596;
+    height: 10vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: absolute;
+    bottom: -5vh;
+    left: 33vw;
+    box-shadow: 4px 8px 20px black;
+    border-radius: 25px;
+
+}
+.startingScreen{
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: 25vh;
+    background-color: #FF4545;
+    text-align: center;
+    box-shadow: 4px 8px 20px black;
+    border-radius: 25px;
+    opacity: 0.95;
+}
+h1{
+    text-align: center;
+}
+.gameBody{
+ height:100vh;
+ width:100vw;
+ background-color:orange;
+
+}
+.scoreBoard{
+    height: 12.5%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: lime;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    box-shadow:0 5px 10px black;
+    position: relative;
+}
+.gameScreen{
+ height: 87%;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+}
+#firstRow,#secondRow,#thirdRow,#forthRow{
+    width: 100vw;
+    height: 25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.nums,#skip{
+    height:3em;
+    width:3em;
+    border-radius: 100%;
+    background-color: aqua;
+    box-shadow: 5px 6px 10px black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.nums:active,#skip:active{
+    box-shadow:5px 6px 10px black inset;
+    transition:all 0.5s ;
+}
+#play:active{
+    box-shadow:4px 8px 20px black inset;
+    transition:all 0.5s ;
+}
+#target,#timer,#score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#r_target,#r_timer,#r_score{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+}
+.endingScreen{
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: 25vh;
+    background-color: #FF4545;
+    text-align: center;
+    box-shadow: 4px 8px 20px black;
+    border-radius: 25px;
+    opacity: 0.95;
+    z-index: -1;
+}
+#playAgain{
+    background-color: #FCF596;
+    height: 10vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: -5vh;
+    left: 33vw;
+    box-shadow: 4px 8px 20px black;
+    border-radius: 25px;
+}
+#playAgain:active{
+    box-shadow:4px 8px 20px black inset;
+    transition:all 0.5s ;
+}
+#finalScore{
+    margin-top: 20vh;
+    font-size: 3em;
+}
+#skip{
+    background-color: crimson;
+}

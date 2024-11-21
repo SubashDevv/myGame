@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="startingScreen">
+        <h1 id="game">NUMBER CLICKER</h1>
+        <br>
+        <p id="hint">
+            *HINTS 
+            <ol>
+                <li>#Tap the coressponding number given in the TARGET to gain 10 points</li>
+                <li>#There is a total 30s time</li>
+                <li>#Each correct ans will give you +3s time</li>
+                <li>#There is a skip button if u cant find the number which cost 5 points</li>
+            </ol>
+            <div id="play">Play</div>
+        </p>
+    </div>
+    <div class="endingScreen">
+        <div id="timeout"><p>Time's Out</p></div>
+        <p id="finalScore">Your score : 00</p>
+        <div id="playAgain">PlayAgain</div>
+    </div>
+    <div class="gameBody">
+     <div class="scoreBoard">
+        <div id="target">
+            <p>Target</p>
+            <div id="r_target" >0</div>
+        </div>
+        <div id="timer">
+            <p>Timer</p>
+            <div id="r_timer">30s</div>
+        </div>
+        <div id="score">
+            <p>Score</p>
+            <div id="r_score">00</div>
+        </div>
+     </div>
+     <div class="gameScreen">
+        <div id="firstRow">
+            <div id="n1" class="nums">0</div>
+            <div id="n2"  class="nums">0</div>
+            <div id="n3"  class="nums" >0</div>
+            <div id="n4"  class="nums">0</div>
+         </div>
+             <div id="secondRow">
+                <div id="n5"  class="nums">0</div>
+                <div id="n6"  class="nums">0</div>
+                <div id="n7"  class="nums">0</div>
+                <div id="n8"  class="nums">0</div>
+             </div>
+        <div id="thirdRow">
+            <div id="n9"   class="nums">0</div>
+            <div id="n10"  class="nums">0</div>
+            <div id="n11"  class="nums">0</div>
+            <div id="n12"  class="nums">0</div>
+        </div>
+        <div id="forthRow">
+            <div id="n13"  class="nums">0</div>
+            <div id="n14"  class="nums">0</div>
+            <div id="n15"  class="nums">0</div>
+            <div id="skip">Skip</div>
+        </div>  
+     </div>
+    </div>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</html>
